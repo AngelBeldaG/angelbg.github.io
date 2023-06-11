@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE marcas [    
+    <!ELEMENT marcas (marca*)>
+    <!ELEMENT marca (name, description, website)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT website (#PCDATA)>
+]>
+<marcas>
+    <marca>
+        <name>adidas</name>
+        <description>Sports brand</description>
+        <website>https://www.adidas.com/</website>
+    </marca>
+    <marca>
+        <name>Nike</name>
+        <description>Sports and lifestyle brand. Just Do It</description>
+        <website>https://www.nike.com/</website>
+    </marca>
+    <marca>
+        <name>Puma</name>
+        <description>Sports and lifestyle brand</description>
+        <website>https://www.puma.com/</website>
+    </marca>
+    <marca>
+        <name>The North Face</name>
+        <description>Outdoor apparel and equipment brand</description>
+        <website>https://www.thenorthface.com/</website>
+    </marca>
+</marcas>
